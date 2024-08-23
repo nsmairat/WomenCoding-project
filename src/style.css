@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
     url("../images/vogue.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,12 +58,12 @@ header a {
 }
 
 footer {
-  color: aliceblue;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/woman-footer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/herowoman.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
+  color: white;
 }
 
 footer h3 {
@@ -71,7 +71,7 @@ footer h3 {
   font-size: 20px;
   line-height: 30px;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
 }
 
 section {
@@ -86,7 +86,7 @@ main {
 main h2 {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.5px;
+
   letter-spacing: 5px;
   opacity: 0.3;
   text-transform: uppercase;
@@ -96,7 +96,7 @@ main h2 {
 main h3 {
   font-weight: 700;
   font-size: 14px;
-  margin: 30px;
+  margin-bottom: 50px;
 }
 
 main p {
@@ -128,7 +128,7 @@ main p {
 
 .happy {
   width: 100%;
-  padding-top: 170px;
+  padding-top: 90px;
 }
 
 section.secondary {
@@ -143,7 +143,7 @@ section.secondary {
 .img-responsive {
   width: 100%;
   display: block;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
@@ -166,6 +166,7 @@ section.secondary {
   background-color: #272044;
   text-decoration: none;
   border-radius: 8px;
+  margin-top: 50px;
 }
 
 footer p {
@@ -188,7 +189,7 @@ footer ul {
 
 footer a {
   color: aliceblue;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 @media (max-width: 900px) {
@@ -206,6 +207,8 @@ footer a {
 
   header h3 {
     font-size: 12px;
+    margin-bottom: 50px;
+    margin-left: 30px;
   }
 
   .happy {
