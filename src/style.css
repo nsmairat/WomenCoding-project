@@ -75,10 +75,9 @@ footer h3 {
 }
 
 section {
-  display: block;
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 main {
@@ -109,8 +108,11 @@ main p {
 
 .grid {
   display: grid;
-  padding: 90px;
   grid-gap: 64px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-2col {
@@ -126,6 +128,40 @@ main p {
 .happy {
   width: 100%;
   padding-top: 170px;
+}
+
+section.secondary {
+  background-color: rgb(225, 228, 231);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
+.card {
+  background: white;
+}
+
+.card-body {
+  margin: 30px;
+}
+
+.button-btn {
+  display: block;
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 16px;
+  background-color: #272044;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 footer p {
