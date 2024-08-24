@@ -17,7 +17,7 @@ header {
   filter: sepia(41%);
 }
 
-.container {
+.hero {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -60,7 +60,10 @@ header a {
   display: inline-block;
   border-radius: 5px;
 }
-
+.video {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 table tbody tr {
   vertical-align: text-top;
 }
@@ -163,16 +166,13 @@ main p {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.happy {
-  width: 100%;
-  padding-top: 90px;
-}
-
 section.secondary {
   background-color: rgb(225, 228, 231);
   padding-bottom: 10px;
 }
-
+.section {
+  padding-top: 60px;
+}
 section h2 {
   text-align: center;
 }
