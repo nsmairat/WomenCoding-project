@@ -13,6 +13,10 @@ header {
   padding: 200px 0;
 }
 
+.ricci {
+  filter: sepia(41%);
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -57,21 +61,54 @@ header a {
   border-radius: 5px;
 }
 
-footer {
+table tbody tr {
+  vertical-align: text-top;
+}
+table {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/herowoman.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  background-position: center;
   color: white;
+  aspect-ratio: 2 / 1;
+  max-width: 100%;
+  display: block;
+  padding: 150px;
 }
 
-footer h3 {
+thead {
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
   margin: 0 auto;
-  padding: 20px;
+  text-transform: uppercase;
+}
+
+table thead,
+tbody {
+  color: white;
+  opacity: 0.9;
+}
+
+.th1 {
+  padding-right: 70px;
+  padding-bottom: 30px;
+}
+.th2 {
+  padding-bottom: 30px;
+}
+.th3 {
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+.td3 {
+  padding-left: 60px;
+}
+
+table a {
+  color: white;
+  opacity: 0.9;
 }
 
 section {
@@ -136,6 +173,14 @@ section.secondary {
   padding-bottom: 10px;
 }
 
+section h2 {
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+}
+
 .text-center {
   text-align: center;
 }
@@ -167,29 +212,6 @@ section.secondary {
   text-decoration: none;
   border-radius: 8px;
   margin-top: 50px;
-}
-
-footer p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  opacity: 0.7;
-  margin: 0 auto;
-}
-
-footer li {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-footer ul {
-  padding: 0;
-}
-
-footer a {
-  color: aliceblue;
-  opacity: 0.9;
 }
 
 @media (max-width: 900px) {
